@@ -111,8 +111,11 @@ main section {
 
 .pj-box {
   margin: 6px;
-  height: 160px;
-  width: 160px;
+  height: 300px;
+  width: 300px;
+  background-color: #A1A5A6;
+  box-shadow: 0px 0px 9px -2px #003F63;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
 }
@@ -126,6 +129,7 @@ main section {
 .projects div:nth-of-type(1) div {
   background-image: url(../projects/pixels_art/screenshot/pixels_art_screenshot.jpeg);
   background-size: cover;
+  background-position: 50%;
 }
 
 .projects div:nth-of-type(2) .pj-img {

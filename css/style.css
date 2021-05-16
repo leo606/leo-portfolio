@@ -93,8 +93,11 @@ header a:hover {
   margin: auto;
 }
 
+main section {
+  border-top: solid 1px #353D40;
+} 
+
 .projects {
-  background-color: blanchedalmond;
   display: flex;
   justify-content: space-around;
 }
@@ -107,10 +110,27 @@ header a:hover {
 }
 
 .pj-box {
-  background-color: brown;
   margin: 6px;
   height: 160px;
   width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pj-img {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 6px;
+}
+
+.projects div:nth-of-type(1) div {
+  background-image: url(../projects/pixels_art/screenshot/pixels_art_screenshot.jpeg);
+  background-size: cover;
+}
+
+.projects div:nth-of-type(2) .pj-img {
+  background-image: url(../projects/task_list/screenshot/task_list_screenshot.jpeg);
+  background-size: cover;
 }
 
 .pj-box h3 {

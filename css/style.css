@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body {
   font-family: 'Merriweather Sans', sans-serif;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
   font-weight: 400;
   background-color: #D9D9D9;
 }
@@ -47,21 +44,23 @@ header nav {
   display: flex;
   align-self: stretch;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 header nav ol {
   list-style: none;
   padding: 0;
+  max-width: 900px;
   display: flex;
+  flex-grow: 1;
   flex-wrap: wrap;
 }
 
 header nav ol li {
   margin: 0 3em 0 3em;
-  border: solid 1px #353D40;
+  text-align: center;
   border-radius: 3px;
-  padding: 6px;
+  flex-grow: 1;
 }
 
 @media (max-width: 521px) {
@@ -76,12 +75,48 @@ header nav ol li {
 
 header a {
   text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  border-bottom: solid 1px #353D40;
+  padding: 6px 9px 6px 9px;
   color: #353D40;
 }
 
-.about {
+header a:hover {
+  color: #373c3d;
+  text-shadow: 0px 0px 6px #A1A5A6;
+  transition: 260ms;
+}
+
+.main {
   max-width: 1000px;
   margin: auto;
+}
+
+.projects {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 521px) {
+  .projects{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pj-box {
+  background-color: brown;
+  margin: 6px;
+  height: 160px;
+  width: 160px;
+}
+
+.pj-box h3 {
+  text-align: center;
+  font-size: 1.3em;
+  margin: 3px 1.5px 3px 1.5px;
 }
 
 .skills {

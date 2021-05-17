@@ -12,6 +12,10 @@ h1, h2, h3 {
   text-shadow: 0px 0px 6px #A1A5A6;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   margin-top: 60px;
   min-height: 80vh;
@@ -77,14 +81,15 @@ header a {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: bold;
-  border-bottom: solid 1px #353D40;
+  border-bottom: solid 1px #003F63;
   padding: 6px 9px 6px 9px;
-  color: #353D40;
+  color: #003F63;
 }
 
 header a:hover {
-  color: #373c3d;
+  color: #003F63;
   text-shadow: 0px 0px 6px #A1A5A6;
+  border-bottom: solid 1px #F2B138;
   transition: 260ms;
 }
 
@@ -123,17 +128,17 @@ main section {
 .pj-img {
   display: flex;
   flex-grow: 1;
-  border-radius: 6px;
+  border-top: solid 1px #F2B138;
 }
 
-.projects div:nth-of-type(1) div {
-  background-image: url(../projects/pixels_art/screenshot/pixels_art_screenshot.jpeg);
+.projects a:nth-of-type(1) div .pj-img {
+  background-image: url(./projects/pixels_art/screenshot/pixels_art_screenshot.jpeg);
   background-size: cover;
   background-position: 50%;
 }
 
-.projects div:nth-of-type(2) .pj-img {
-  background-image: url(../projects/task_list/screenshot/task_list_screenshot.jpeg);
+.projects a:nth-of-type(2) div .pj-img {
+  background-image: url(./projects/todo_list/screenshot/task_list_screenshot.jpeg);
   background-size: cover;
 }
 

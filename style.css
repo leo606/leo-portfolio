@@ -18,7 +18,7 @@ a {
 
 header {
   margin-top: 60px;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,6 +103,7 @@ main section {
 } 
 
 .projects {
+  height: 90vh;
   display: flex;
   justify-content: space-around;
 }

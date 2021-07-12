@@ -105,6 +105,7 @@ main section {
 .projects {
   height: 90vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -140,6 +141,21 @@ main section {
 
 .projects a:nth-of-type(2) div .pj-img {
   background-image: url(./projects/todo_list/screenshot/task_list_screenshot.jpeg);
+  background-size: cover;
+}
+
+.projects a:nth-of-type(3) div .pj-img {
+  background-image: url(./projects/meme_generator/screenshot/meme_generator.png);
+  background-size: cover;
+}
+
+.projects a:nth-of-type(4) div .pj-img {
+  background-image: url(./projects/trybewarts/screenshot/trybewarts_screenshot.png);
+  background-size: cover;
+}
+
+.projects a:nth-of-type(5) div .pj-img {
+  background-image: url(./projects/shopping_cart/screenshot/shooping_cart_screenshot.png);
   background-size: cover;
 }
 

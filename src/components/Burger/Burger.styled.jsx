@@ -37,7 +37,7 @@ const StyledBurger = styled.button`
       transform: ${({ burgerOpen }) => (burgerOpen ? 'translateX(20px)' : 'translateX(0)')};
     }
 
-    :nth-child(2) {
+    :nth-child(3) {
       transform: ${({ burgerOpen }) => (burgerOpen ? 'rotate(-45deg)' : 'rotate(0)')};
     }
   }

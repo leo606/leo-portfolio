@@ -1,9 +1,14 @@
 import React from 'react';
+import { bool, func } from 'prop-types';
 import StyledBurger from './Burger.styled';
 
-function Burger() {
+function Burger({ burgerOpen, setBurgerOpen }) {
+  function handleClick() {
+    setBurgerOpen((open) => !open);
+  }
+
   return (
-    <StyledBurger>
+    <StyledBurger burgerOpen={burgerOpen} onClick={handleClick}>
       <div />
       <div />
       <div />
@@ -12,3 +17,8 @@ function Burger() {
 }
 
 export default Burger;
+
+Burger.propTypes = {
+  burgerOpen: bool.isRequired,
+  setBurgerOpen: func.isRequired,
+};

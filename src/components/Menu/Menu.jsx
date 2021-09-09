@@ -1,9 +1,10 @@
 import React from 'react';
+import { bool } from 'prop-types';
 import StyledMenu from './Menu.styled';
 
-function Menu() {
+function Menu({ burgerOpen }) {
   return (
-    <StyledMenu>
+    <StyledMenu burgerOpen={burgerOpen}>
       <a href="/">
         <span role="img" aria-label="about us">&#x1f481;&#x1f3fb;&#x200d;&#x2642;&#xfe0f;</span>
         About us
@@ -21,3 +22,7 @@ function Menu() {
 }
 
 export default Menu;
+
+Menu.propTypes = {
+  burgerOpen: bool.isRequired,
+};

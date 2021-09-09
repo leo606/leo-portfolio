@@ -22,11 +22,24 @@ const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme }) => theme.primaryLight};
+    background: ${({ theme, burgerOpen }) => (burgerOpen ? theme.primaryDark : theme.primaryLight)};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
+
+    :first-child {
+      transform: ${({ burgerOpen }) => (burgerOpen ? 'rotate(45deg)' : 'rotate(0)')};
+    }
+
+    :nth-child(2) {
+      opacity: ${({ burgerOpen }) => (burgerOpen ? '0' : '1')};
+      transform: ${({ burgerOpen }) => (burgerOpen ? 'translateX(20px)' : 'translateX(0)')};
+    }
+
+    :nth-child(2) {
+      transform: ${({ burgerOpen }) => (burgerOpen ? 'rotate(-45deg)' : 'rotate(0)')};
+    }
   }
 `;
 

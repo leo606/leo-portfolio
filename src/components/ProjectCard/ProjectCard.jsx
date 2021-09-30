@@ -1,21 +1,18 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import StyledProjectCard from './ProjectCard.styled';
 import codeImage from '../../images/code.jpg';
 
-function ProjectCard() {
+function ProjectCard({ project }) {
   return (
     <StyledProjectCard>
+      <img src={codeImage} alt="code example" />
+      <h4>{project.name}</h4>
       <div>
-        <img src={codeImage} alt="code example" />
-        <h4>Projeto 1</h4>
-        <div>
-          <span>ano</span>
-          <span>tipo</span>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <span>{project.year}</span>
+        <span>{project.type}</span>
       </div>
+      <p>{project.description}</p>
     </StyledProjectCard>
   );
 }

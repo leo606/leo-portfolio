@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header`
   background-color: green;
-  height: 60vh;
+  height: 100vh;
   min-width: 100vw;
   display: flex;
   flex-direction: column;

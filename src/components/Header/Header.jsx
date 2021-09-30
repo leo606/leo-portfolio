@@ -4,7 +4,7 @@ import StyledHeader from './Header.styled';
 function Header() {
   return (
     <StyledHeader>
-      <h1>Leonardo Ferreira</h1>
+      <h1>Olá, Sou Leonardo Ferreira, estudante de desenvolvimento Web</h1>
       <h2>
         Apaixonado por tecnologia e inovação e isso foi o que me levou a
         estudar Desenvolvimentode Software.

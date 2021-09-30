@@ -7,7 +7,9 @@ function Projects() {
     <StyledProjects>
       <main>
         <h3>Projetos</h3>
-        <ProjectCard />
+        <section>
+          <ProjectCard />
+        </section>
       </main>
     </StyledProjects>
   );

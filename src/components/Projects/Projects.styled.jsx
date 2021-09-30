@@ -8,6 +8,11 @@ const StyledProjects = styled.section`
     font-size: 2em;
   }
 
+  @media screen and (min-width:768px){
+    section {
+      display: flex;
+    }
+  }
 `;
 
 export default StyledProjects;

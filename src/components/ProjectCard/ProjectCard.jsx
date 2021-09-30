@@ -5,7 +5,7 @@ import codeImage from '../../images/code.jpg';
 function ProjectCard() {
   return (
     <StyledProjectCard>
-      <section>
+      <div>
         <img src={codeImage} alt="code example" />
         <h4>Projeto 1</h4>
         <div>
@@ -15,7 +15,7 @@ function ProjectCard() {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-      </section>
+      </div>
     </StyledProjectCard>
   );
 }

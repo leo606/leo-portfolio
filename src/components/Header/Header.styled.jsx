@@ -1,13 +1,24 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
-  background-color: green;
+  background-color: ${({ theme }) => theme.primaryLight};
+  color: ${({ theme }) => theme.primaryDark};
   height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5em 2em;
+  transition: 50ms;
+
+  @media screen and (min-width:768px){
+    height: 60vh;
+
+  }
+
+  section {
+    max-width: 760px;
+  }
 
   h1 {
     text-align: center;

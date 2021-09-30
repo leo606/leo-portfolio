@@ -14,9 +14,6 @@ function ProjectCard() {
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Laborum vitae harum atque consectetur magni quibusdam,
-          modi repellendus blanditiis nihil magnam impedit!
-          Consequuntur veritatis quasi libero sit, quaerat autem ipsam dolorum.
         </p>
       </section>
     </StyledProjectCard>

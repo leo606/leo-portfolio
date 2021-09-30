@@ -4,7 +4,9 @@ import useOnClickOutside from './hooks';
 import './App.css';
 import GlobalStyles from './global';
 import theme from './theme';
-import { Burger, Menu, Header } from './components';
+import {
+  Burger, Menu, Header, Projects,
+} from './components';
 
 function App() {
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -13,14 +15,13 @@ function App() {
   useOnClickOutside(node, () => setBurgerOpen(false));
   return (
     <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <Header />
-        <div ref={node}>
-          <Burger burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />
-          <Menu burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />
-        </div>
-      </>
+      <GlobalStyles />
+      <div ref={node}>
+        <Burger burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />
+        <Menu burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />
+      </div>
+      <Header />
+      <Projects />
     </ThemeProvider>
   );
 }

@@ -1,7 +1,6 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import { shape, number, string } from 'prop-types';
 import StyledProjectCard from './ProjectCard.styled';
-// import codeImage from './jetfood.jpg';
 
 function ProjectCard({ project }) {
   return (
@@ -18,3 +17,14 @@ function ProjectCard({ project }) {
 }
 
 export default ProjectCard;
+
+ProjectCard.propTypes = {
+  project: shape({
+    id: number,
+    name: string,
+    year: string,
+    type: string,
+    description: string,
+    thumb: string,
+  }).isRequired,
+};

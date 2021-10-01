@@ -22,6 +22,7 @@ const StyledProjectCard = styled.div`
 
   span {
     padding: 0.06em 0.3em;
+    font-size: 0.9em;
   }
 
   span:nth-child(1) {

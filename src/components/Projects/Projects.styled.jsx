@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledProjects = styled.main`
-  padding: 1em;
+  padding: 2em 1em;
 
   h3 {
     text-align: center;

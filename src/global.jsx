@@ -16,6 +16,10 @@ const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.primaryLight};
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-rendering: optimizeLegibility;
+
+    @media screen and (min-width:760px){
+    font-size: 20px;
+  }
   }
   `;
 

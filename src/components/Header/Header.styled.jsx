@@ -10,9 +10,10 @@ const StyledHeader = styled.header`
   align-items: center;
   padding: 5em 2em;
   transition: 50ms;
+  box-shadow: 0px 9px 13px ${({ theme }) => theme.primaryDarkShadow};
 
   @media screen and (min-width:768px){
-    height: 60vh;
+    height: fit-content;
   }
 
   section {

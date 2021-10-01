@@ -6,7 +6,7 @@ const GITHUB_ICON = 'https://github.com/devicons/devicon/raw/master/icons/github
 
 function Footer() {
   return (
-    <StyledFooter>
+    <StyledFooter id="contact">
       <h3>Contate-me</h3>
       <div>
         <a href="https://www.linkedin.com/in/leonardolmf/" target="_blank" rel="noreferrer">

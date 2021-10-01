@@ -5,7 +5,7 @@ import ProjectsData from '../../data/projects.json';
 
 function Projects() {
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <h3>Projetos</h3>
       <section>
         {

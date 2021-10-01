@@ -4,7 +4,7 @@ const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.primaryLight};
   color: ${({ theme }) => theme.primaryDark};
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;

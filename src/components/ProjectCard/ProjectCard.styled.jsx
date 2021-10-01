@@ -12,7 +12,7 @@ const StyledProjectCard = styled.div`
   }
 
   h4 {
-    font-size: 1.9em;
+    font-size: 1.6em;
   }
 
   div {

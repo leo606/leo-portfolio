@@ -5,7 +5,7 @@ import './App.css';
 import GlobalStyles from './global';
 import theme from './theme';
 import {
-  Burger, Menu, Header, Projects,
+  Burger, Menu, Header, Projects, Footer,
 } from './components';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       </div>
       <Header />
       <Projects />
+      <Footer />
     </ThemeProvider>
   );
 }

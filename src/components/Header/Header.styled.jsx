@@ -13,7 +13,6 @@ const StyledHeader = styled.header`
 
   @media screen and (min-width:768px){
     height: 60vh;
-
   }
 
   section {

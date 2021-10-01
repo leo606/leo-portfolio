@@ -1,44 +1,23 @@
 [
   {
     "id": 1,
-    "name": "um 1",
+    "name": "Frontend Online Store",
     "year": "2021",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
+    "type": "React",
+    "description": "Aplicação que consome a API do Mercado Livre e é possível buscar, filtrar e visualizar detalhes dos produtos"
   },
   {
     "id": 2,
-    "name": "dois 2",
+    "name": "Recipes App",
     "year": "2021",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
+    "type": "React",
+    "description": "APP de receitas que consome as APIs TheMealDB e CockTailDB para buscar, filtrar, favoritar e acompanhar as receitas em progresso usando React Hooks e Context API."
   },
   {
     "id": 3,
-    "name": "tres 3",
-    "year": "2019",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
-  },
-  {
-    "id": 4,
-    "name": "quatro 4",
-    "year": "2019",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
-  },
-  {
-    "id": 5,
-    "name": "cinco 5",
-    "year": "2019",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
-  },
-  {
-    "id": 6,
-    "name": "seis 6",
-    "year": "2019",
-    "type": "JS",
-    "description": "lorem akjshdfk jahsd fasdljkf basdjbfsdf lsdj fskjdf"
+    "name": "TrybeWallet",
+    "year": "2021",
+    "type": "React, Redux",
+    "description": "App de carteira, sendo possível adicionar e remover gastos em diferentes moedas, mostrando a cotação da moeda e o valor convertido. As informações referentes a cotação recebidas da API de Cotações de Moedas."
   }
 ]

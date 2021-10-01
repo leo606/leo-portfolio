@@ -37,7 +37,7 @@ const StyledProjectCard = styled.div`
   }
 
   p {
-    font-size: 1.1em;
+    height: 9em;
   }
 
   @media screen and (min-width:768px){

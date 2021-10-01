@@ -11,6 +11,10 @@ function ProjectCard({ project }) {
         <span>{project.year}</span>
         <span>{project.type}</span>
       </div>
+      <div>
+        <a href="https://www.google.com/">projeto</a>
+        <a href="https://www.google.com/">repositorio</a>
+      </div>
       <p>{project.description}</p>
     </StyledProjectCard>
   );

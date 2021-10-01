@@ -1,11 +1,11 @@
 import React from 'react';
+// import avatar from 'images/avatar.jpg';
 import StyledHeader from './Header.styled';
-import avatar from '../../images/avatar.jpg';
 
 function Header() {
   return (
     <StyledHeader>
-      <img src={avatar} alt="leonardo" />
+      <img src="images/avatar.jpg" alt="leonardo" />
       <section>
         <h1>Olá, Sou Arnold Schaznegger, estudante de desenvolvimento Web</h1>
         <h2>

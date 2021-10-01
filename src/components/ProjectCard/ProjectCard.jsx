@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import StyledProjectCard from './ProjectCard.styled';
-import codeImage from '../../images/code.jpg';
+// import codeImage from './jetfood.jpg';
 
 function ProjectCard({ project }) {
   return (
     <StyledProjectCard>
-      <img src={codeImage} alt="code example" />
+      <img src={project.thumb} alt={project.name} />
       <h4>{project.name}</h4>
       <div>
         <span>{project.year}</span>

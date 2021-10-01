@@ -8,9 +8,14 @@ const StyledProjects = styled.section`
     font-size: 2em;
   }
 
+  section {
+    background-color: aqua;
+  }
+
   @media screen and (min-width:768px){
     section {
       display: flex;
+      justify-content: space-around;
     }
   }
 `;

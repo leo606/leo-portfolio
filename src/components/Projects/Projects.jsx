@@ -6,16 +6,14 @@ import ProjectsData from '../../data/projects.json';
 function Projects() {
   return (
     <StyledProjects>
-      <main>
-        <h3>Projetos</h3>
-        <section>
-          {
+      <h3>Projetos</h3>
+      <section>
+        {
             ProjectsData.map((p) => (
               <ProjectCard key={p.id} project={p} />
             ))
           }
-        </section>
-      </main>
+      </section>
     </StyledProjects>
   );
 }

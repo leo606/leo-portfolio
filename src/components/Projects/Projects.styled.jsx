@@ -9,7 +9,6 @@ const StyledProjects = styled.main`
   }
 
   section {
-    background-color: aqua;
     margin: 0 auto;
     max-width: 1100px;
   }

@@ -12,8 +12,8 @@ function ProjectCard({ project }) {
         <span>{project.type}</span>
       </div>
       <div>
-        <a href="https://www.google.com/">projeto</a>
-        <a href="https://www.google.com/">repositorio</a>
+        <a target="_blank" rel="noreferrer" href={project.page}>PÁGINA</a>
+        <a target="_blank" rel="noreferrer" href={project.repo}>REPOSITÓRIO</a>
       </div>
       <p>{project.description}</p>
     </StyledProjectCard>

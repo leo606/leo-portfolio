@@ -34,7 +34,7 @@ const StyledHeader = styled.header`
 
   img {
     display: block;
-    max-width: 90px;
+    max-width: 130px;
     border-radius: 50%;
   }
 `;

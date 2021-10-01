@@ -1,13 +1,12 @@
 import React from 'react';
-// import avatar from 'images/avatar.jpg';
 import StyledHeader from './Header.styled';
 
 function Header() {
   return (
-    <StyledHeader>
-      <img src="images/avatar.jpg" alt="leonardo" />
+    <StyledHeader id="about">
+      <img src="images/avatar.jpeg" alt="leonardo" />
       <section>
-        <h1>Olá, Sou Arnold Schaznegger, estudante de desenvolvimento Web</h1>
+        <h1>Olá, Sou Leonardo Ferreira, estudante de desenvolvimento Web</h1>
         <h2>
           Apaixonado por tecnologia e inovação e isso foi o que me levou a
           estudar Desenvolvimentode Software.

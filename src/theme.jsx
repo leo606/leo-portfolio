@@ -1,7 +1,7 @@
 const theme = {
-  primaryDark: '#0D0C1D',
-  primaryLight: '#EFFFFA',
-  primaryHover: '#343078',
+  primaryDark: '#353D40',
+  primaryLight: '#D9D9D9',
+  primaryHover: '#003F63',
   mobile: '576px',
 };
 

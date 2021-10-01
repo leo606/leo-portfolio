@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 const StyledProjectCard = styled.div`
-  background-color: ${({ theme }) => theme.primaryLight};
-  color: ${({ theme }) => theme.primaryDark};
+  color: ${({ theme }) => theme.primaryLight};
   padding: 0.3em;
-  margin: 0.3em 0.3em;
+  margin: 0.9em 0.3em;
+  border-radius: 0.3em;
 
   img {
     max-width: 100%;
     margin: 0 auto;
+    border-radius: 0.5em;
   }
 
   h4 {
@@ -16,7 +17,7 @@ const StyledProjectCard = styled.div`
   }
 
   div {
-    margin: 0.5em 0;
+    margin: 1em 0;
   }
 
   span {
@@ -24,10 +25,14 @@ const StyledProjectCard = styled.div`
   }
 
   span:nth-child(1) {
-    background-color: ${({ theme }) => theme.primaryDark};
-    color: ${({ theme }) => theme.primaryLight};
+    background-color: ${({ theme }) => theme.primaryLight};
+    color: ${({ theme }) => theme.primaryDark};
     margin-right: 1em;
     border-radius: 0.3em;
+  }
+
+  span:nth-child(2) {
+    opacity: 90%;
   }
 
   p {

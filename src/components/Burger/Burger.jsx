@@ -8,6 +8,7 @@ function Burger({ burgerOpen, setBurgerOpen }) {
   }
 
   return (
+    // eslint-disable-next-line react/jsx-no-bind
     <StyledBurger burgerOpen={burgerOpen} onClick={handleClick}>
       <div />
       <div />

@@ -7,10 +7,15 @@ const StyledFooter = styled.footer`
   min-height: 15vh;
   padding: 2em 1em;
 
-  h3 {
+  h4 {
     text-align: center;
     font-size: 2em;
-    margin-bottom: 0.3em;
+    color: ${({ theme }) => theme.primaryLight};
+    background-color: ${({ theme }) => theme.primaryDark};
+    width: fit-content;
+    margin: 0 auto 0.3em;
+    padding: 0 0.1em;
+    border-radius: 0.1em;
   }
 
   a:hover {
@@ -21,7 +26,7 @@ const StyledFooter = styled.footer`
   div {
     width: 160px;
     height: 6em;
-    margin: 0 auto;
+    margin: 2em auto;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;

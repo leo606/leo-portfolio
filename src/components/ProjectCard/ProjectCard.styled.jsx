@@ -13,7 +13,8 @@ const StyledProjectCard = styled.div`
   }
 
   h4 {
-    font-size: 1.6em;
+    font-size: 1.5em;
+    margin-top: 0.3em;
   }
 
   div {
@@ -63,11 +64,11 @@ const StyledProjectCard = styled.div`
   }
 
   a:nth-child(1) {
-    margin-right: 0.6em;
+    margin-right: 1em;
   }
 
   a:nth-child(2) {
-    margin-left: 0.6em;
+    margin-left: 1em;
   }
 
 

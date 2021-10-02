@@ -45,10 +45,11 @@ const StyledProjectCard = styled.div`
   a {
     display: inline-block;
     text-decoration: none;
+    font-size: 0.9em;
     text-align: center;
-    padding: 0.6em;
+    padding: 0.4em;
     width: 1em;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     background-color: ${({ theme }) => theme.primaryLight};
     color: ${({ theme }) => theme.primaryDark};
     box-shadow: 0 0 9px 1px ${({ theme }) => theme.primaryDarkShadow};

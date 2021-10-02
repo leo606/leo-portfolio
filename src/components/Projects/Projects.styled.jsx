@@ -28,6 +28,7 @@ const StyledProjects = styled.main`
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
+      align-items: flex-start;
     }
   }
 `;

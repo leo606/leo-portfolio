@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Frontend Online Store",
+    "year": "2021",
+    "type": "React",
+    "description": "Aplicação que consome a API do Mercado Livre e é possível buscar, filtrar e visualizar detalhes dos produtos",
+    "thumb":"images/se_vira_nos_trinta.jpg",
+    "page": "https://leo606.github.io/project-frontend-online-store-trybe/",
+    "repo": "https://github.com/leo606/project-frontend-online-store-trybe"
+  },
+  {
+    "id": 2,
+    "name": "Recipes App",
+    "year": "2021",
+    "type": "React",
+    "description": "APP de receitas que consome as APIs TheMealDB e CockTailDB para buscar, filtrar, favoritar e acompanhar as receitas em progresso usando React Hooks e Context API.",
+    "thumb":"images/jetfood.jpg",
+    "page": "https://leo606.github.io/project-recipes-app-trybe/#/",
+    "repo": "https://github.com/leo606/project-recipes-app-trybe"
+  },
+  {
+    "id": 3,
+    "name": "TrybeWallet",
+    "year": "2021",
+    "type": "React, Redux",
+    "description": "App de carteira, sendo possível adicionar e remover gastos em diferentes moedas, mostrando a cotação da moeda e o valor convertido. As informações referentes a cotação recebidas da API de Cotações de Moedas.",
+    "thumb":"images/trybewallet.jpg",
+    "page": "https://leo606.github.io/project-trybewallet-trybe/",
+    "repo": "https://github.com/leo606/project-trybewallet-trybe"
+  }
+]

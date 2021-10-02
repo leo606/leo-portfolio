@@ -6,16 +6,22 @@ const StyledProjects = styled.main`
   h3 {
     text-align: center;
     font-size: 2em;
+    background-color: ${({ theme }) => theme.primaryLight};
+    color: ${({ theme }) => theme.primaryDark};
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 0.1em;
+    border-radius: 0.1em;
   }
 
   section {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1300px;
   }
 
   @media screen and (min-width:460px){
     section {
-      width: 90vw;
+      width: 96vw;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -24,7 +30,6 @@ const StyledProjects = styled.main`
 
   @media screen and (min-width:768px){
     section {
-      display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;

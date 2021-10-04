@@ -12,8 +12,9 @@ const StyledMenu = styled.nav`
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
+  box-shadow: ${({ theme, burgerOpen }) => burgerOpen && `15px 0 60px -30px ${theme.primaryDarkShadow}`};
   transform: ${({ burgerOpen }) => (burgerOpen ? 'translateX(0)' : 'translateX(-100%)')};
-  
+
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
   }
@@ -22,8 +23,7 @@ const StyledMenu = styled.nav`
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
+    font-weight: 500;
     color: ${({ theme }) => theme.primaryDark};
     text-decoration: none;
     transition: color 0.3s linear;

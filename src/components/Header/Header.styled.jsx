@@ -33,8 +33,8 @@ const StyledHeader = styled.header`
   }
 
   img {
-    display: block;
     max-width: 130px;
+    box-shadow: 0px 0px 15px -6px ${({ theme }) => theme.primaryDarkShadow};
     border-radius: 50%;
   }
 `;

@@ -6,7 +6,7 @@ function Header() {
     <StyledHeader id="about">
       <img src="images/avatar.jpeg" alt="leonardo" />
       <section>
-        <h1>Olá, Sou Leonardo Ferreira, estudante de desenvolvimento Web</h1>
+        <h1>Olá! Sou Leonardo Ferreira, estudante de desenvolvimento Web</h1>
         <h2>
           Apaixonado por tecnologia e inovação e isso foi o que me levou a
           estudar Desenvolvimentode Software.

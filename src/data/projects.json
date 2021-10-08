@@ -28,5 +28,15 @@
     "thumb":"images/trybewallet.jpg",
     "page": "https://leo606.github.io/project-trybewallet-trybe/",
     "repo": "https://github.com/leo606/project-trybewallet-trybe"
+  },
+  {
+    "id": 4,
+    "name": "Trivia App",
+    "year": "2021",
+    "type": "React, Redux",
+    "description": "Trivia Game, com base em requisições a API do Trivia, usamos Redux para o gerenciamento do estado. É possível configurar os tipos de perguntas e carregar seu avatar do Gravatar",
+    "thumb":"images/trivia.jpg",
+    "page": "https://leo606.github.io/project-trivia-react-redux-trybe/",
+    "repo": "https://github.com/leo606/project-trivia-react-redux-trybe"
   }
 ]

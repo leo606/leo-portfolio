@@ -38,5 +38,15 @@
     "thumb":"images/trivia.jpg",
     "page": "https://leo606.github.io/project-trivia-react-redux-trybe/",
     "repo": "https://github.com/leo606/project-trivia-react-redux-trybe"
+  },
+  {
+    "id": 5,
+    "name": "MusicBucket",
+    "year": "2021",
+    "type": "React, Redux",
+    "description": "Nesse APP é possível pesquisar por informações de artistas e albuns usando a API do MusicBrainz. Projeto pessoal feito no intuito de praticar conceitos de React hooks e Redux.",
+    "thumb":"images/musicbucket.jpg",
+    "page": "http://music-bucket.vercel.app",
+    "repo": "https://github.com/leo606/MusicBucket"
   }
 ]
